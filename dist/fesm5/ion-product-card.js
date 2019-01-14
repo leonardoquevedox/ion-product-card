@@ -1,8 +1,8 @@
-import { CurrencyMaskModule } from 'ngx-currency-mask';
-import { ChangeDetectorRef, Component, ChangeDetectionStrategy, Input, Output, EventEmitter, NgZone, NgModule } from '@angular/core';
+import { ChangeDetectorRef, Component, ChangeDetectionStrategy, NgModule, Input, Output, EventEmitter, NgZone } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ViewController, NavParams, PopoverController, IonicModule } from 'ionic-angular';
+import { ViewController, NavParams, IonicModule, PopoverController } from 'ionic-angular';
 import { TranslateModule } from '@ngx-translate/core';
+import { CurrencyMaskModule } from 'ngx-currency-mask';
 
 /**
  * @fileoverview added by tsickle
@@ -72,6 +72,23 @@ var IonProductCardOptionsMenu = /** @class */ (function () {
         { type: ChangeDetectorRef }
     ]; };
     return IonProductCardOptionsMenu;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var IonProductCardOptionsModule = /** @class */ (function () {
+    function IonProductCardOptionsModule() {
+    }
+    IonProductCardOptionsModule.decorators = [
+        { type: NgModule, args: [{
+                    imports: [CommonModule, IonicModule, TranslateModule],
+                    declarations: [IonProductCardOptionsMenu],
+                    exports: [IonProductCardOptionsMenu]
+                },] }
+    ];
+    return IonProductCardOptionsModule;
 }());
 
 /**
@@ -239,23 +256,6 @@ var IonProductCardComponent = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-var IonProductCardOptionsModule = /** @class */ (function () {
-    function IonProductCardOptionsModule() {
-    }
-    IonProductCardOptionsModule.decorators = [
-        { type: NgModule, args: [{
-                    imports: [CommonModule, IonicModule, TranslateModule],
-                    declarations: [IonProductCardOptionsMenu],
-                    exports: [IonProductCardOptionsMenu]
-                },] }
-    ];
-    return IonProductCardOptionsModule;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
- */
 var IonProductCardModule = /** @class */ (function () {
     function IonProductCardModule() {
     }
@@ -285,6 +285,6 @@ var IonProductCardModule = /** @class */ (function () {
  * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { IonProductCardComponent, IonProductCardModule, IonProductCardOptionsMenu as ɵb, IonProductCardOptionsModule as ɵa };
+export { IonProductCardOptionsModule, IonProductCardComponent, IonProductCardModule, IonProductCardOptionsMenu as ɵa };
 
 //# sourceMappingURL=ion-product-card.js.map

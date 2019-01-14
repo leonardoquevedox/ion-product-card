@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('ngx-currency-mask'), require('@angular/core'), require('@angular/common'), require('ionic-angular'), require('@ngx-translate/core')) :
-    typeof define === 'function' && define.amd ? define('ion-product-card', ['exports', 'ngx-currency-mask', '@angular/core', '@angular/common', 'ionic-angular', '@ngx-translate/core'], factory) :
-    (factory((global['ion-product-card'] = {}),global.ngxCurrencyMask,global.ng.core,global.ng.common,global.ionicAngular,global.ngxTranslate));
-}(this, (function (exports,ngxCurrencyMask,core,common,ionicAngular,core$1) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('ionic-angular'), require('@ngx-translate/core'), require('ngx-currency-mask')) :
+    typeof define === 'function' && define.amd ? define('ion-product-card', ['exports', '@angular/core', '@angular/common', 'ionic-angular', '@ngx-translate/core', 'ngx-currency-mask'], factory) :
+    (factory((global['ion-product-card'] = {}),global.ng.core,global.ng.common,global.ionicAngular,global.ngxTranslate,global.ngxCurrencyMask));
+}(this, (function (exports,core,common,ionicAngular,core$1,ngxCurrencyMask) { 'use strict';
 
     /**
      * @fileoverview added by tsickle
@@ -74,6 +74,23 @@
             ];
         };
         return IonProductCardOptionsMenu;
+    }());
+
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+    var IonProductCardOptionsModule = /** @class */ (function () {
+        function IonProductCardOptionsModule() {
+        }
+        IonProductCardOptionsModule.decorators = [
+            { type: core.NgModule, args: [{
+                        imports: [common.CommonModule, ionicAngular.IonicModule, core$1.TranslateModule],
+                        declarations: [IonProductCardOptionsMenu],
+                        exports: [IonProductCardOptionsMenu]
+                    },] }
+        ];
+        return IonProductCardOptionsModule;
     }());
 
     /**
@@ -243,23 +260,6 @@
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
-    var IonProductCardOptionsModule = /** @class */ (function () {
-        function IonProductCardOptionsModule() {
-        }
-        IonProductCardOptionsModule.decorators = [
-            { type: core.NgModule, args: [{
-                        imports: [common.CommonModule, ionicAngular.IonicModule, core$1.TranslateModule],
-                        declarations: [IonProductCardOptionsMenu],
-                        exports: [IonProductCardOptionsMenu]
-                    },] }
-        ];
-        return IonProductCardOptionsModule;
-    }());
-
-    /**
-     * @fileoverview added by tsickle
-     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
     var IonProductCardModule = /** @class */ (function () {
         function IonProductCardModule() {
         }
@@ -289,10 +289,10 @@
      * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
 
+    exports.IonProductCardOptionsModule = IonProductCardOptionsModule;
     exports.IonProductCardComponent = IonProductCardComponent;
     exports.IonProductCardModule = IonProductCardModule;
-    exports.ɵb = IonProductCardOptionsMenu;
-    exports.ɵa = IonProductCardOptionsModule;
+    exports.ɵa = IonProductCardOptionsMenu;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
