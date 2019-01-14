@@ -1,0 +1,19 @@
+{
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "whitelistedNonPeerDependencies": [
+        "angular",
+        "ionic-angular",
+        "@ngx-translate/core",
+        "ngx-currency-mask",
+        "color"
+    ],
+    "lib": {
+        "umdModuleIds": {
+            "ionic-angular": "ionicAngular",
+            "ngx-currency-mask": "ngxCurrencyMask",
+            "@ngx-translate/core": "ngxTranslate",
+            "color": "_color"
+        },
+        "entryFile": "./src/public_api.ts"
+    }
+}
