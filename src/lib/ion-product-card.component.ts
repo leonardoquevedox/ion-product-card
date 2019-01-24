@@ -5,7 +5,7 @@
  * @description Product component.
  */
 
-import { Component } from '@angular/core'
+import { Component, ViewEncapsulation } from '@angular/core'
 import { Input, Output } from '@angular/core'
 import { EventEmitter } from '@angular/core'
 import { NgZone } from '@angular/core'
@@ -17,11 +17,8 @@ import { IonProductCardOptionsMenu } from './options/ion-product-card-options.co
 @Component({
     selector: 'ion-product-card',
     templateUrl: 'ion-product-card.component.html',
-    styles: [`
-        :host ion-item {
-            border-bottom: 0px
-        }
-    `]
+    styleUrls: ['ion-product-card.component.scss'],
+    encapsulation: ViewEncapsulation.None
 })
 
 export class IonProductCardComponent {

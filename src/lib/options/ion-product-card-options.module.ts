@@ -12,6 +12,7 @@ import { IonProductCardOptionsMenu } from './ion-product-card-options.component'
 
 @NgModule({
     imports: [CommonModule, IonicModule, TranslateModule],
+    entryComponents:[IonProductCardOptionsMenu],
     declarations: [IonProductCardOptionsMenu],
     exports: [IonProductCardOptionsMenu]
 })
