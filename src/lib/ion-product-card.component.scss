@@ -6,15 +6,15 @@ $light : #f4f4f4;
 $dark : #555;
 $light-grey: #999;
 $brighter-light-grey: lighten($light-grey, 10%);
-$image-size: 90px;
+$image-size: 9rem;
 
 ion-product-card {
     [product] {
         background-color: white;
         display: block;
-        margin-bottom: 0px;
+        margin-bottom: 0rem;
         min-height: 100px;
-        padding: 0px;
+        padding: 0rem;
         height: 100%;
         &.deleted {
             [product-image],
@@ -24,30 +24,30 @@ ion-product-card {
             }
         }
         ion-card-header[product-header] {
-            padding-top: 10px;
-            /* border-bottom: 2px solid #efefef; */
-            margin-bottom: 5px;
+            padding-top: 1rem;
+            /* border-bottom: 0.2rem solid #efefef; */
+            margin-bottom: 0.5rem;
         }
         [product-picture] {
             img {
-                margin-left: 5px;
+                margin-left: 0.5rem;
                 object-fit: contain;
                 height: $image-size;
                 width: $image-size;
-                border-radius: 4px;
+                border-radius: 0.4rem;
             }
         }
         ion-label {
-            margin-top: 0px;
-            margin-bottom: 10px;
+            margin-top: 0rem;
+            margin-bottom: 1rem;
         }
         ion-item.item {
             .item-inner {
-                border-bottom: none; // margin-top: -16px;
+                border-bottom: none; // margin-top: -1.6rem;
             }
         }
         [item-left] {
-            margin-top: 0px;
+            margin-top: 0rem;
         }
         img[product-image] {
             height: $image-size;
@@ -55,20 +55,20 @@ ion-product-card {
             object-fit: cover;
             object-position: center;
             border-radius: 50%;
-            margin-left: 10px;
-            padding: 5px;
+            margin-left: 1rem;
+            padding: 0.5rem;
         }
         [deleted-tag] {
-            font-size: 10px;
+            font-size: 1rem;
         }
         [product-name] {
-            font-size: 12px;
+            font-size: 1.2rem;
             white-space: normal;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 2rem;
+            padding-right: 2rem;
             text-align: center;
-            padding: 4px;
-            padding-bottom: 0px;
+            padding: 0.4rem;
+            padding-bottom: 0rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -78,47 +78,47 @@ ion-product-card {
         [product-info],
         [product-description] {
             color: $light;
-            font-size: 13px;
-            margin-top: 5px;
-            margin-bottom: 5px;
+            font-size: 1.3rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
         }
         [product-price] {
             color: $balanced;
-            font-size: 14px;
+            font-size: 1.4rem;
             vertical-align: baseline;
             text-align: center;
-            margin-bottom: 0px;
+            margin-bottom: 0rem;
         }
         &.discount-product {
             [product-price] {
                 text-decoration: line-through;
-                margin-top: 5px;
-                font-size: 12px;
+                margin-top: 0.5rem;
+                font-size: 1.2rem;
                 &[discount] {
                     text-decoration: none;
-                    font-size: 15px;
+                    font-size: 1.5rem;
                     font-weight: bold;
                 }
             }
         }
         [padding-input] {
-            padding-top: 10px;
-            padding-bottom: 0px;
+            padding-top: 1rem;
+            padding-bottom: 0rem;
         }
         [stock-input] {
             input {
                 width: 95%;
                 text-align: center;
                 color: $positive;
-                border-bottom: 2px solid #efefef;
-                font-size: 10px;
+                border-bottom: 0.2rem solid #efefef;
+                font-size: 1rem;
             }
             label {
                 text-transform: uppercase;
                 display: block;
-                font-size: 10px;
+                font-size: 1rem;
                 opacity: 0.8;
-                padding-top: 4px;
+                padding-top: 0.4rem;
             }
         }
         [price-input] {
@@ -130,28 +130,28 @@ ion-product-card {
                 text-align: center !important;
                 color: $balanced;
                 margin: auto;
-                margin-right: -20px;
+                margin-right: -2rem;
                 max-width: 90%;
-                font-size: 12px;
-                border-bottom: 2px solid #ebebeb;
+                font-size: 1.2rem;
+                border-bottom: 0.2rem solid #ebebeb;
                 &:focus {
                     border-bottom-color: $balanced;
                 }
             }
             &[discount-price-input] {
-                margin-top: 5px;
-                margin-bottom: 10px;
-                margin-left: -45px;
-                font-size: 12px;
+                margin-top: 0.5rem;
+                margin-bottom: 1rem;
+                margin-left: -4.5rem;
+                font-size: 1.2rem;
                 [prefix] {
                     color: #888;
-                    font-size: 12px;
+                    font-size: 1.2rem;
                 }
                 input {
-                    padding-top: 5px;
+                    padding-top: 0.5rem;
                     color: $danger;
-                    font-size: 16px;
-                    padding-bottom: 5px;
+                    font-size: 1.6rem;
+                    padding-bottom: 0.5rem;
                     &:focus {
                         border-bottom-color: $danger;
                     }
@@ -159,45 +159,45 @@ ion-product-card {
             }
         }
         [inventory-options] {
-            display: inline-block; // padding-top: 30px;
-            margin-top: 15px;
+            display: inline-block; // padding-top: 3rem;
+            margin-top: 1.5rem;
         }
         [catalogue-options] {
             button {
-                width: 40px;
-                height: 40px;
-                padding-left: 2px;
+                width: 4rem;
+                height: 4rem;
+                padding-left: 0.2rem;
                 ion-icon {
-                    font-size: 16px;
+                    font-size: 1.6rem;
                 }
             }
         }
         [cart-options] {
             [cart-icon] {
                 color: #bbb;
-                padding-left: 0px;
+                padding-left: 0rem;
                 display: inline-block;
                 vertical-align: middle;
-                margin-top: -15px;
+                margin-top: -1.5rem;
                 &::before {
-                    font-size: 45px;
+                    font-size: 4.5rem;
                 }
             }
             [quantity-button] {
                 border-radius: 50%;
-                width: 25px;
-                height: 25px;
+                width: 2.5rem;
+                height: 2.5rem;
                 ion-icon {
-                    padding-left: 0px;
+                    padding-left: 0rem;
                     &::before{
-                        font-size: 14px;
+                        font-size: 1.4rem;
                     }
                 }
             }
             p {
                 text-align: center;
                 color: #999;
-                font-size: 12px;
+                font-size: 1.2rem;
             }
         }
         [more-options] {
@@ -205,24 +205,24 @@ ion-product-card {
         }
         [delete-button] {
             position: absolute;
-            left: 10px;
+            left: 1rem;
         }
         [view-more] {
             text-align: center;
             display: block;
             margin: auto;
-            padding-top: 8px;
-            font-size: 12px;
+            padding-top: 0.8rem;
+            font-size: 1.2rem;
         }
     }
 }
 
 [product-spinner] {
     position: absolute;
-    right: 20px;
-    bottom: 5px;
+    right: 2rem;
+    bottom: 0.5rem;
     z-index: 9999;
-    width: 22px;
+    width: 2.2rem;
     circle {
         stroke: white !important;
     }

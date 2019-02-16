@@ -1,9 +1,3 @@
-/**
- * @license MIT
- * @version 1.1.0
- * @author Leonardo Quevedo
- * @description Product component.
- */
 import { EventEmitter } from '@angular/core';
 import { NgZone } from '@angular/core';
 import { ChangeDetectorRef } from '@angular/core';
