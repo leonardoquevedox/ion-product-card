@@ -1,6 +1,6 @@
 {
   "name": "ion-product-card",
-  "version": "0.9.9",
+  "version": "1.0.0-rc11",
   "description": "Simple product card for Ionic v2+.",
   "main": "bundles/ion-product-card.umd.js",
   "repository": {
@@ -36,7 +36,7 @@
     "@angular/compiler-cli": "^6.0.7",
     "ng-packagr": "^4.7.0",
     "tsickle": "^0.34.0",
-    "typescript": "2.7.2"
+    "typescript": "^2.7.2"
   },
   "module": "fesm5/ion-product-card.js",
   "es2015": "fesm2015/ion-product-card.js",

@@ -12,7 +12,7 @@
     </ion-card-header>
     <ion-card-content no-padding>
         <ion-item text-center no-padding>
-            <article item-left product-picture>
+            <article item-left product-picture (click)="view.emit(product)">
                 <img [src]="product.picture" />
             </article>
             <form>
