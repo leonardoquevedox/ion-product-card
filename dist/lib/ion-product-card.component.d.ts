@@ -4,10 +4,10 @@
  * @author Leonardo Quevedo
  * @description Product component.
  */
-import { EventEmitter } from '@angular/core';
-import { NgZone } from '@angular/core';
-import { ChangeDetectorRef } from '@angular/core';
-import { PopoverController } from 'ionic-angular';
+import { EventEmitter } from "@angular/core";
+import { NgZone } from "@angular/core";
+import { ChangeDetectorRef } from "@angular/core";
+import { PopoverController } from "ionic-angular";
 export declare class IonProductCardComponent {
     zone: NgZone;
     changeDetector: ChangeDetectorRef;
@@ -31,7 +31,6 @@ export declare class IonProductCardComponent {
     blur: EventEmitter<any>;
     constructor(zone: NgZone, changeDetector: ChangeDetectorRef, popoverCtrl: PopoverController);
     ngOnInit(): void;
-    formatPrice(price: any): any;
     showItemLeft(): any;
     getQuantityFor(product: any): string;
     showQuantityButtons(): any;

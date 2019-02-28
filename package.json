@@ -1,51 +1,51 @@
 {
-    "name": "ion-product-card",
-    "version": "1.0.0-rc11",
-    "description": "Simple product card for Ionic v2+.",
-    "main": "index.js",
-    "scripts": {
-        "ng": "ng",
-        "start": "ng serve",
-        "build": "ng build",
-        "test": "ng test",
-        "lint": "ng lint",
-        "e2e": "ng e2e",
-        "prepublish": "npm run packagr",
-        "publish": "npm publish dist",
-        "packagr": "ng-packagr -p ng-package.json"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/leopq/ion-product-card.git"
-    },
-    "keywords": [
-        "angular",
-        "handler",
-        "ngx"
-    ],
-    "author": "Leonardo Quevedo",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/leopq/ion-product-card/issues"
-    },
-    "homepage": "https://github.com/leopq/ion-product-card#readme",
-    "dependencies": {
-        "@angular/common": "^6.0.7",
-        "@angular/core": "^6.0.7",
-        "@angular/forms": "^6.0.7",
-        "@angular/http": "^6.0.7",
-        "@angular/platform-browser": "^6.0.7",
-        "@angular/platform-browser-dynamic": "^6.0.7",
-        "@ngx-translate/core": "^11.0.1",
-        "color": "^3.1.0",
-        "ionic-angular": "^3.9.2",
-        "ngx-currency-mask": "^4.3.2"
-    },
-    "devDependencies": {
-        "@angular/compiler": "^6.0.7",
-        "@angular/compiler-cli": "^6.0.7",
-        "ng-packagr": "^4.7.0",
-        "tsickle": "^0.34.0",
-        "typescript": "^2.7.2"
-    }
+  "name": "ion-product-card",
+  "version": "1.0.0-rc12",
+  "description": "Simple product card for Ionic v2+.",
+  "main": "index.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "prepublish": "npm run packagr",
+    "publish": "npm publish dist",
+    "packagr": "ng-packagr -p ng-package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leopq/ion-product-card.git"
+  },
+  "keywords": [
+    "angular",
+    "handler",
+    "ngx"
+  ],
+  "author": "Leonardo Quevedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leopq/ion-product-card/issues"
+  },
+  "homepage": "https://github.com/leopq/ion-product-card#readme",
+  "dependencies": {
+    "@angular/common": "^6.0.7",
+    "@angular/core": "^6.0.7",
+    "@angular/forms": "^6.0.7",
+    "@angular/http": "^6.0.7",
+    "@angular/platform-browser": "^6.0.7",
+    "@angular/platform-browser-dynamic": "^6.0.7",
+    "@ngx-translate/core": "^11.0.1",
+    "color": "^3.1.0",
+    "ionic-angular": "^3.9.2",
+    "ngx-currency-mask": "^4.3.2"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^6.0.7",
+    "@angular/compiler-cli": "^6.0.7",
+    "ng-packagr": "^4.7.0",
+    "tsickle": "^0.34.0",
+    "typescript": "^2.7.2"
+  }
 }
