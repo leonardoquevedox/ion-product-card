@@ -16,6 +16,7 @@ export declare class IonProductCardComponent {
         prefix: string;
         thousands: string;
         decimal: string;
+        nullable: boolean;
     };
     product: any;
     options: any;

@@ -102,7 +102,7 @@
             this.zone = zone;
             this.changeDetector = changeDetector;
             this.popoverCtrl = popoverCtrl;
-            this.CURRENCY_OPTIONS = { prefix: "R$ ", thousands: ".", decimal: "," };
+            this.CURRENCY_OPTIONS = { prefix: "R$ ", thousands: ".", decimal: ",", nullable: true };
             this.add = new core.EventEmitter();
             this.save = new core.EventEmitter();
             this.view = new core.EventEmitter();

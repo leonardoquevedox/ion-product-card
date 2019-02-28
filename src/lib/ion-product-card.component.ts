@@ -21,7 +21,7 @@ import { IonProductCardOptionsMenu } from "./options/ion-product-card-options.co
   encapsulation: ViewEncapsulation.None
 })
 export class IonProductCardComponent {
-  CURRENCY_OPTIONS = { prefix: "R$ ", thousands: ".", decimal: "," };
+  CURRENCY_OPTIONS = { prefix: "R$ ", thousands: ".", decimal: ",", nullable: true };
 
   @Input("product") product: any;
   @Input("options") options: any;

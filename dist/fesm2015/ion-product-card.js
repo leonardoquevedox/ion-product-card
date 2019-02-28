@@ -91,7 +91,7 @@ class IonProductCardComponent {
         this.zone = zone;
         this.changeDetector = changeDetector;
         this.popoverCtrl = popoverCtrl;
-        this.CURRENCY_OPTIONS = { prefix: "R$ ", thousands: ".", decimal: "," };
+        this.CURRENCY_OPTIONS = { prefix: "R$ ", thousands: ".", decimal: ",", nullable: true };
         this.add = new EventEmitter();
         this.save = new EventEmitter();
         this.view = new EventEmitter();
