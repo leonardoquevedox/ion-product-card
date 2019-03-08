@@ -8,7 +8,7 @@ import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
 import { IonicModule } from 'ionic-angular'
 import { TranslateModule } from '@ngx-translate/core'
-import { CurrencyMaskModule } from "ngx-currency-mask"
+import { NgxCurrencyModule } from "ngx-currency"
 import { IonProductCardComponent } from './ion-product-card.component'
 import { IonProductCardOptionsModule } from './options/ion-product-card-options.module'
 
@@ -17,7 +17,7 @@ import { IonProductCardOptionsModule } from './options/ion-product-card-options.
         CommonModule,
         IonicModule,
         TranslateModule,
-        CurrencyMaskModule,
+        NgxCurrencyModule,
         IonProductCardOptionsModule
     ],
     declarations: [IonProductCardComponent],

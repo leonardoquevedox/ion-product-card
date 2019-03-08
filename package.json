@@ -1,6 +1,6 @@
 {
   "name": "ion-product-card",
-  "version": "1.0.0-rc24",
+  "version": "1.0.0-rc25",
   "description": "Simple product card for Ionic v2+.",
   "main": "index.js",
   "scripts": {
@@ -39,7 +39,7 @@
     "@ngx-translate/core": "~10.0.0",
     "color": "^3.1.0",
     "ionic-angular": "^3.9.2",
-    "ngx-currency-mask": "^4.3.2"
+    "ngx-currency": "^1.5.1"
   },
   "devDependencies": {
     "@angular/compiler": "^6.0.7",

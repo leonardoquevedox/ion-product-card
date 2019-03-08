@@ -1,13 +1,12 @@
 $positive: #1e88e5;
-$balanced : rgb(75, 196, 110);
-$danger : rgb(247, 68, 68);
+$balanced: rgb(75, 196, 110);
+$danger: rgb(247, 68, 68);
 $energized: #ffa114;
-$light : #f4f4f4;
-$dark : #555;
+$light: #f4f4f4;
+$dark: #555;
 $light-grey: #999;
 $brighter-light-grey: lighten($light-grey, 10%);
 $image-size: 9rem;
-
 ion-product-card {
     [product] {
         background-color: white;
@@ -185,11 +184,11 @@ ion-product-card {
             }
             [quantity-button] {
                 border-radius: 50%;
-                width: 2.5rem;
-                height: 2.5rem;
+                width: 3rem;
+                height: 3rem;
                 ion-icon {
                     padding-left: 0rem;
-                    &::before{
+                    &::before {
                         font-size: 1.4rem;
                     }
                 }
