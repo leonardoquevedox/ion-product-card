@@ -2,18 +2,7 @@
   "name": "ion-product-card",
   "version": "1.0.0-rc28",
   "description": "Simple product card for Ionic v2+.",
-  "main": "index.js",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "prepublish": "npm run packagr",
-    "publish": "npm publish dist",
-    "packagr": "ng-packagr -p ng-package.json"
-  },
+  "main": "bundles/ion-product-card.umd.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leopq/ion-product-card.git"
@@ -39,7 +28,8 @@
     "@ngx-translate/core": "~10.0.0",
     "color": "^3.1.0",
     "ionic-angular": "^3.9.2",
-    "ngx-currency": "^1.5.1"
+    "ngx-currency": "^1.5.1",
+    "tslib": "^1.9.0"
   },
   "devDependencies": {
     "@angular/compiler": "^6.0.7",
@@ -47,5 +37,14 @@
     "ng-packagr": "^4.7.0",
     "tsickle": "^0.34.0",
     "typescript": "^2.7.2"
-  }
+  },
+  "module": "fesm5/ion-product-card.js",
+  "es2015": "fesm2015/ion-product-card.js",
+  "esm5": "esm5/ion-product-card.js",
+  "esm2015": "esm2015/ion-product-card.js",
+  "fesm5": "fesm5/ion-product-card.js",
+  "fesm2015": "fesm2015/ion-product-card.js",
+  "typings": "ion-product-card.d.ts",
+  "metadata": "ion-product-card.metadata.json",
+  "sideEffects": false
 }
