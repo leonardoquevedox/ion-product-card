@@ -1,6 +1,6 @@
 {
   "name": "ion-product-card",
-  "version": "1.0.0-rc28",
+  "version": "1.0.0-rc30",
   "description": "Simple product card for Ionic v2+.",
   "main": "bundles/ion-product-card.umd.js",
   "repository": {
