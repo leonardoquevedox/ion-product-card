@@ -1,6 +1,6 @@
 {
   "name": "ion-product-card",
-  "version": "1.0.0-rc25",
+  "version": "1.0.0-rc26",
   "description": "Simple product card for Ionic v2+.",
   "main": "index.js",
   "scripts": {
